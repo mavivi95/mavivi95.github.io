@@ -1,0 +1,95 @@
+
+
+.avatar-wrapper img {
+  box-shadow:
+    0 0 0 2px #fff,              /* borde blanco */
+    0 0 20px rgba(248, 127, 219, 0.6),  /* halo azul suave */
+    0 0 60px rgba(99, 132, 255, 0.3);
+  border-radius: 50%;
+  transition: box-shadow 0.4s ease;
+}
+
+/* Efecto hover */
+.avatar-wrapper:hover img {
+  box-shadow:
+    0 0 0 2px #fff,
+    0 0 35px rgba(99, 132, 255, 0.9),
+    0 0 80px rgba(99, 132, 255, 0.5);
+}
+
+
+/* 1) Colores del gradiente como variables (modo claro por defecto) */
+:root {
+  --bg-grad-start: #c9f1ff; /* azul suave */
+  --bg-grad-end:   #ffe5fb;
+}
+
+/* 2) Dark mode: cambia variables del gradiente (escoge tonos sobrios) */
+html.dark,
+body.dark,
+html[data-theme="dark"] {
+  --bg-grad-start: #032432;
+  --bg-grad-end:   #1a131a;
+}
+
+/* 3) Poner el gradiente DETRÁS del sitio (no sobreescribe backgrounds) */
+body::before {
+  content: "";
+  position: fixed;   /* se queda pegado al viewport (mejor que attachment: fixed en mobile) */
+  inset: 0;
+  z-index: -1;       /* por debajo de todo */
+  pointer-events: none;
+  background: linear-gradient(180deg, var(--bg-grad-start) 0%, var(--bg-grad-end) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* sin blur ni opacidad para no afectar contraste del tema */
+}
+
+/* 4) (Opcional) Ajustes de tarjetas en dark para contraste */
+html.dark .card,
+body.dark .card,
+html[data-theme="dark"] .card {
+  background-color: rgba(22, 27, 34, 0.85); /* gris muy oscuro semitransparente */
+  box-shadow: none;
+}
+
+/* 5) (Opcional) Si dejaste fondos semitransparentes globales, restríngelos a home */
+.home .article-container,
+.home .section-content {
+  background: rgba(255, 255, 255, 0.90);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+html.dark .home .article-container,
+html.dark .home .section-content {
+  background: rgba(22, 27, 34, 0.85);
+}
+
+
+/* ====== Ajustes tipográficos personales ====== */
+
+h1.text-5xl {
+  font-size: 2rem !important;     /* ~32px */
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+}
+
+/* 2) Justificar el texto de resumen/biografía y secciones */
+.section-content p,
+.wg-about .prose p,
+.prose p,
+p.lead {
+  text-align: justify !important;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  max-width: 850px;
+  margin: 0 auto;      /* centra el bloque */
+}
+
+/* 3) Opcional: espaciar un poquito los párrafos */
+.section-content p + p,
+.wg-about .prose p + p,
+.prose p + p {
+  margin-top: 0.6rem;
+}
