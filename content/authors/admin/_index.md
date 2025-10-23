@@ -52,6 +52,8 @@ interests:
   - Inverse Reinforcement Learning
   - Resilience in Complex Systems
   - Neural Networks
+  - Machine Learning
+  - Autonomous Agents
 
 education:
   - area: Ph.D. in Engineering

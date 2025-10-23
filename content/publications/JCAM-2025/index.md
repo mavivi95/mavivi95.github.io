@@ -16,9 +16,8 @@ links:
 - type: custom
   label: Site
   url: "https://doi.org/10.1016/j.cam.2025.116747"
-- type: preprint
-  provider: arxiv
-  id: 2409.13187
+- type: code
+  url: "https://github.com/mavivi95/overfittingLipschitzBound"
 
 image:
   preview_only: true

@@ -56,17 +56,19 @@ sections:
     id: talks
     content:
       title: Recent & Upcoming Talks
+      count: 3
       filters:
         folders:
           - events
     design:
-      view: card
+      view: article-grid
+      columns: 3
   
   - block: collection
     id: blogs
     content:
       title: "Blogs"
-      count: 8
+      count: 3
       filters:
         folders: 
           - post     # <-- filtra SOLO la sección content/blog

@@ -1,4 +1,84 @@
+/* Justifica los abstracts o summaries */
+/* Justificar texto del abstract */
+.max-w-prose {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
+.poster-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* 👈 hace que ambas columnas igualen altura */
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.poster-column {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GIF: horizontal, un poco más ancho */
+.poster-gif {
+  border-radius: 16px;
+  height: 230px;               /* 🔥 altura de referencia */
+  width: auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+/* Foto: vertical, se ajusta a la misma altura */
+.poster-photo {
+  border-radius: 16px;
+  height: 230px;               /* 👈 misma altura que el gif */
+  width: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.poster-grid img:hover {
+  transform: scale(1.03);
+}
+
+.poster-button-container {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.poster-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #7b9dfd, #b892ff);
+  color: white !important;
+  font-weight: 400;
+  border-radius: 40px;
+  padding: 0.45rem 1.2rem;  /* 🔽 antes 0.7rem 1.6rem */
+  font-size: 0.8rem;        /* 🔽 más pequeño y balanceado */
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.poster-button:hover {
+  background: linear-gradient(90deg, #b892ff, #7b9dfd);
+  box-shadow: 0 3px 8px rgba(123,157,253,0.35);
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .poster-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .poster-gif, .poster-photo {
+    height: auto;
+    max-width: 90%;
+  }
+}
 
 .avatar-wrapper img {
   box-shadow:
