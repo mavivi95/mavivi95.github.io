@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://mavivi95.github.io/manuela_chacon_chamorro.github.io/sitemap.xml
+Sitemap: https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/sitemap.xml

@@ -53,3 +53,10 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# para que todas las URLs usen tu baseURL (incluye la subcarpeta)
+canonifyURLs: true
+relativeURLs: true
+# asegúrate del trailing slash ↓
+baseURL: "https://mavivi95.github.io/manuela_chacon_chamorro.github.io/"
+publishDir: docs

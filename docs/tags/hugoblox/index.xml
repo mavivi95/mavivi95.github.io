@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HugoBlox | Hugo Academic CV Theme</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/tags/hugoblox/</link><atom:link href="https://mavivi95.github.io/manuela_chacon_chamorro.github.io/tags/hugoblox/index.xml" rel="self" type="application/rss+xml"/><description>HugoBlox</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/media/icon_hu_982c5d63a71b2961.png</url><title>HugoBlox</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/tags/hugoblox/</link></image><item><title>Pandas</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/projects/pandas/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/projects/pandas/</guid><description>&lt;p>Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p></description></item><item><title>PyTorch</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/projects/pytorch/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/projects/pytorch/</guid><description>&lt;p>PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p></description></item><item><title>scikit-learn</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/projects/scikit/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/projects/scikit/</guid><description>&lt;p>scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HugoBlox | Hugo Academic CV Theme</title>
+    <link>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/tags/hugoblox/</link>
+      <atom:link href="https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/tags/hugoblox/index.xml" rel="self" type="application/rss+xml" />
+    <description>HugoBlox</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>HugoBlox</title>
+      <link>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/tags/hugoblox/</link>
+    </image>
+    
+    <item>
+      <title>Pandas</title>
+      <link>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/projects/pandas/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/projects/pandas/</guid>
+      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PyTorch</title>
+      <link>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/projects/pytorch/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/projects/pytorch/</guid>
+      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>scikit-learn</title>
+      <link>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/projects/scikit/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/projects/scikit/</guid>
+      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
