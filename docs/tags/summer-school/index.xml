@@ -1,68 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Summer School | Hugo Academic CV Theme</title>
-    <link>https://example.com/tags/summer-school/</link>
-      <atom:link href="https://example.com/tags/summer-school/index.xml" rel="self" type="application/rss+xml" />
-    <description>Summer School</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
-      <title>Summer School</title>
-      <link>https://example.com/tags/summer-school/</link>
-    </image>
-    
-    <item>
-      <title>🤖 Reflections from the Cooperative AI Summer School 2025</title>
-      <link>https://example.com/post/summer-cai/</link>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/summer-cai/</guid>
-      <description>&lt;h2 id=&#34;a-week-of-cooperation-learning-and-shared-curiosity&#34;&gt;A week of cooperation, learning, and shared curiosity&lt;/h2&gt;
-&lt;h4 id=&#34;-overview&#34;&gt;🌍 Overview&lt;/h4&gt;
-&lt;p&gt;This summer, I had the opportunity to attend the Cooperative AI Summer School 2025, organized by the Cooperative AI Foundation. It took place in Marlow, UK — a quiet town surrounded by green landscapes, perfect for a week dedicated to deep discussions about AI, cooperation, and human values. The program combined academic sessions and collaborative activities, structured as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Keynote lectures by leading researchers,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;One-to-one meetings and working groups,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Poster sessions on July 10–11,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A final hands-on challenge session.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;-main-themes-that-inspired-me&#34;&gt;💡 Main themes that inspired me&lt;/h4&gt;
-&lt;p&gt;The school brought together researchers from diverse fields—spanning machine learning, game theory, philosophy, and the social sciences. Despite our different profiles and research agendas, we converged on a shared question:
-&lt;em&gt;How can we build AI systems that cooperate effectively with humans and with each other?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Talks ranged from the formal foundations of cooperation and mixed-motive games to the social and ethical dimensions of AI. I was especially inspired by sessions on emergent coordination, multi-agent learning under uncertainty, and resilient collective behaviors. The poster session was equally insightful: work on diplomatic games and AI-mediated negotiation—particularly with LLM-based agents—made clear where current AI capabilities are heading and what is at stake.&lt;/p&gt;
-&lt;p&gt;This trajectory presents both opportunities and risks. It underscores the need to anticipate misalignment behaviors and to advance AI safety by designing systems that incentivize cooperative objectives, align with collective well-being, and support multisector progress across regions.&lt;/p&gt;
-&lt;h4 id=&#34;-poster-presentation-and-gif-competition&#34;&gt;🧠 Poster Presentation and GIF Competition&lt;/h4&gt;
-&lt;p&gt;During the poster sessions, I presented my work titled “Cooperative Resilience in Multi-Agent AI Systems: From Definition to Reward Inference.” The poster summarized my research agenda, which unfolds in four main stages: defining what resilience means within the scope of Cooperative AI; measuring this property in mixed-motive multi-agent systems; understanding what drives agents to exhibit—or fail to exhibit—resilient behavior, for example by inferring their underlying rewards or motivations from trajectories evaluated with a resilience metric; and finally, using those insights to design agents that encapsulate this property and foster system-level resilience. The first two stages — &lt;strong&gt;definition&lt;/strong&gt; and &lt;strong&gt;measurement&lt;/strong&gt; — were developed in detail in my 
-, which lays the theoretical and experimental foundation for this line of research.&lt;/p&gt;
-&lt;div class=&#34;poster-grid&#34;&gt;
-  &lt;div class=&#34;poster-column gif-col&#34;&gt;
-    &lt;img src=&#34;gif_animado.gif&#34; alt=&#34;Winning GIF&#34; class=&#34;poster-gif&#34;/&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;poster-column&#34;&gt;
-    &lt;img src=&#34;img2.jpg&#34; alt=&#34;Presenting the poster&#34; class=&#34;poster-photo&#34;/&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;poster-button-container&#34;&gt;
-  &lt;a class=&#34;poster-button&#34; href=&#34;poster.pdf&#34; target=&#34;_blank&#34;&gt;📄 View Full Poster (PDF)&lt;/a&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;-final-day--collaborative-challenge&#34;&gt;🧩 Final Day — Collaborative Challenge&lt;/h4&gt;
-&lt;p&gt;In the final session, we participated in a hands-on challenge exploring agent properties such as truthfulness and information sharing. Our group proposed an approach to measure truthfulness by analyzing how agents omit relevant information — linking naturally with our ongoing research on cooperative resilience and behavioral inference. This session fostered interdisciplinary collaboration, connecting reinforcement learning, behavioral modeling, and ethics.&lt;/p&gt;
-&lt;p&gt;This activity raised deep questions about systems with LLM agents. Truthfulness alone is hard to define—let alone guarantee—and it quickly connects to other, more human-like capacities we may be inadvertently promoting in artificial agents. In particular, the ability to &lt;strong&gt;omit information&lt;/strong&gt; is critical: agents might leave things out for strategic, safety-related, or purely accidental reasons. Detecting when omission occurs, and inferring the underlying motivation, becomes a central challenge for evaluation and governance.&lt;/p&gt;
-&lt;h4 id=&#34;-connecting-research-and-purpose&#34;&gt;🤝 Connecting research and purpose&lt;/h4&gt;
-&lt;p&gt;Beyond the technical depth, what struck me most was the &lt;strong&gt;community&lt;/strong&gt;. I met researchers and practitioners working on questions closely aligned with my own, and it was energizing to realize how many people around the world are pursuing similar ideas. I had the chance to speak with several of them—people who share a vision for cooperative, reliable AI—and those conversations were grounding and inspiring. The school fostered an open, reflective atmosphere that blended academic rigor with philosophical curiosity and deeply motivating.&lt;/p&gt;
-&lt;h4 id=&#34;-looking-forward&#34;&gt;🌱 Looking forward&lt;/h4&gt;
-&lt;p&gt;Attending the Cooperative AI Summer School was a truly inspiring experience, scientifically and personally. It strengthened my understanding of cooperation as a fundamental design principle in AI systems and allowed me to connect with the global Cooperative AI community, sharing ideas, building friendships, and finding common research goals.&lt;/p&gt;
-&lt;p&gt;I returned from Marlow with new perspectives, collaborations, and reflextions. As I continue my doctoral research, I hope to integrate these insights into frameworks that help agents adapt, sustain fairness, and thrive together under disruption.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summer School | Hugo Academic CV Theme</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/tags/summer-school/</link><atom:link href="https://mavivi95.github.io/manuela_chacon_chamorro.github.io/tags/summer-school/index.xml" rel="self" type="application/rss+xml"/><description>Summer School</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/media/icon_hu_982c5d63a71b2961.png</url><title>Summer School</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/tags/summer-school/</link></image><item><title>🤖 Reflections from the Cooperative AI Summer School 2025</title><link>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/post/summer-cai/</link><pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate><guid>https://mavivi95.github.io/manuela_chacon_chamorro.github.io/post/summer-cai/</guid><description>&lt;h2 id="a-week-of-cooperation-learning-and-shared-curiosity">A week of cooperation, learning, and shared curiosity&lt;/h2>
+&lt;h4 id="-overview">🌍 Overview&lt;/h4>
+&lt;p>This summer, I had the opportunity to attend the Cooperative AI Summer School 2025, organized by the Cooperative AI Foundation. It took place in Marlow, UK — a quiet town surrounded by green landscapes, perfect for a week dedicated to deep discussions about AI, cooperation, and human values. The program combined academic sessions and collaborative activities, structured as:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Keynote lectures by leading researchers,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>One-to-one meetings and working groups,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Poster sessions on July 10–11,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A final hands-on challenge session.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="-main-themes-that-inspired-me">💡 Main themes that inspired me&lt;/h4>
+&lt;p>The school brought together researchers from diverse fields—spanning machine learning, game theory, philosophy, and the social sciences. Despite our different profiles and research agendas, we converged on a shared question:
+&lt;em>How can we build AI systems that cooperate effectively with humans and with each other?&lt;/em>&lt;/p>
+&lt;p>Talks ranged from the formal foundations of cooperation and mixed-motive games to the social and ethical dimensions of AI. I was especially inspired by sessions on emergent coordination, multi-agent learning under uncertainty, and resilient collective behaviors. The poster session was equally insightful: work on diplomatic games and AI-mediated negotiation—particularly with LLM-based agents—made clear where current AI capabilities are heading and what is at stake.&lt;/p>
+&lt;p>This trajectory presents both opportunities and risks. It underscores the need to anticipate misalignment behaviors and to advance AI safety by designing systems that incentivize cooperative objectives, align with collective well-being, and support multisector progress across regions.&lt;/p>
+&lt;h4 id="-poster-presentation-and-gif-competition">🧠 Poster Presentation and GIF Competition&lt;/h4>
+&lt;p>During the poster sessions, I presented my work titled “Cooperative Resilience in Multi-Agent AI Systems: From Definition to Reward Inference.” The poster summarized my research agenda, which unfolds in four main stages: defining what resilience means within the scope of Cooperative AI; measuring this property in mixed-motive multi-agent systems; understanding what drives agents to exhibit—or fail to exhibit—resilient behavior, for example by inferring their underlying rewards or motivations from trajectories evaluated with a resilience metric; and finally, using those insights to design agents that encapsulate this property and foster system-level resilience. The first two stages — &lt;strong>definition&lt;/strong> and &lt;strong>measurement&lt;/strong> — were developed in detail in my
+, which lays the theoretical and experimental foundation for this line of research.&lt;/p>
+&lt;div class="poster-grid">
+&lt;div class="poster-column gif-col">
+&lt;img src="gif_animado.gif" alt="Winning GIF" class="poster-gif"/>
+&lt;/div>
+&lt;div class="poster-column">
+&lt;img src="img2.jpg" alt="Presenting the poster" class="poster-photo"/>
+&lt;/div>
+&lt;/div>
+&lt;div class="poster-button-container">
+&lt;a class="poster-button" href="poster.pdf" target="_blank">📄 View Full Poster (PDF)&lt;/a>
+&lt;/div>
+&lt;h4 id="-final-day--collaborative-challenge">🧩 Final Day — Collaborative Challenge&lt;/h4>
+&lt;p>In the final session, we participated in a hands-on challenge exploring agent properties such as truthfulness and information sharing. Our group proposed an approach to measure truthfulness by analyzing how agents omit relevant information — linking naturally with our ongoing research on cooperative resilience and behavioral inference. This session fostered interdisciplinary collaboration, connecting reinforcement learning, behavioral modeling, and ethics.&lt;/p>
+&lt;p>This activity raised deep questions about systems with LLM agents. Truthfulness alone is hard to define—let alone guarantee—and it quickly connects to other, more human-like capacities we may be inadvertently promoting in artificial agents. In particular, the ability to &lt;strong>omit information&lt;/strong> is critical: agents might leave things out for strategic, safety-related, or purely accidental reasons. Detecting when omission occurs, and inferring the underlying motivation, becomes a central challenge for evaluation and governance.&lt;/p>
+&lt;h4 id="-connecting-research-and-purpose">🤝 Connecting research and purpose&lt;/h4>
+&lt;p>Beyond the technical depth, what struck me most was the &lt;strong>community&lt;/strong>. I met researchers and practitioners working on questions closely aligned with my own, and it was energizing to realize how many people around the world are pursuing similar ideas. I had the chance to speak with several of them—people who share a vision for cooperative, reliable AI—and those conversations were grounding and inspiring. The school fostered an open, reflective atmosphere that blended academic rigor with philosophical curiosity and deeply motivating.&lt;/p>
+&lt;h4 id="-looking-forward">🌱 Looking forward&lt;/h4>
+&lt;p>Attending the Cooperative AI Summer School was a truly inspiring experience, scientifically and personally. It strengthened my understanding of cooperation as a fundamental design principle in AI systems and allowed me to connect with the global Cooperative AI community, sharing ideas, building friendships, and finding common research goals.&lt;/p>
+&lt;p>I returned from Marlow with new perspectives, collaborations, and reflextions. As I continue my doctoral research, I hope to integrate these insights into frameworks that help agents adapt, sustain fairness, and thrive together under disruption.&lt;/p></description></item></channel></rss>
