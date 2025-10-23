@@ -58,5 +58,5 @@ sitemap:
 canonifyURLs: true
 relativeURLs: true
 # asegúrate del trailing slash ↓
-baseURL: "https://mavivi95.github.io/manuela_chacon_chamorro.github.io/"
+baseURL: "https://mavivi95.github.io/"
 publishDir: docs
