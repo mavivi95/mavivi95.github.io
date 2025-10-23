@@ -31,6 +31,14 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+      
+      - name: Install Node dependencies
+        run: |
+          npm install
+          npx tailwindcss --version  # Verifica la instalación
+
+      - name: Build site
+        run: hugo --minify
 
       - name: Build site
         run: hugo --minify
