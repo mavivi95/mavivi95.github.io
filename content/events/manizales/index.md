@@ -35,7 +35,7 @@ image:
 
 links:
   - type: slides
-    url: /
+    url: "slides.pdf"
 
 
 # Markdown Slides (optional).
@@ -54,3 +54,10 @@ slides: ""
 #  - example
 ---
 
+### ✨ Summary
+
+In this talk, I shared my current doctoral research on mixed-motive multi-agent systems, intertwining it with reflections on my journey through the PhD. I began by discussing how mixed-motive environments capture real-world situations in which autonomous agents must navigate the tension between individual objectives and collective welfare, such as in shared-resource management or coordination under uncertainty.
+
+My research focuses on cooperative resilience in multi-agent systems, understood as the ability of a group of agents to anticipate, withstand, recover from, and adapt to disruptions while preserving collective well-being. From this perspective, I explored how incentive design, local interaction rules, and communication mechanisms shape sustained cooperation, drawing on reinforcement learning and inverse reinforcement learning as methodological frameworks.
+
+Beyond the technical contributions, the talk had a personal and reflective tone. I shared experiences from my doctoral path, including the challenges of doing research, the value of interdisciplinary collaboration, and the learning that naturally emerges throughout the process. The talk was intended as a divulgative and accessible space, combining consolidated research results with lessons learned along the way.

@@ -1,3 +1,102 @@
+/* Contenedor principal para centrar la tarjeta */
+.reel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+/* La tarjeta que parece un Reel/Celular */
+.reel-card {
+  display: block;            /* Para que el link funcione en toda la caja */
+  position: relative;        /* Necesario para poner texto encima */
+  width: 280px;              /* Ancho típico de celular */
+  height: 500px;             /* Altura para formato 9:16 */
+  background-size: cover;    /* La imagen cubre todo sin deformarse */
+  background-position: center;
+  border-radius: 24px;       /* Bordes muy redondos estilo App */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* Sombra elegante */
+  text-decoration: none !important; /* Quita el subrayado del link */
+  overflow: hidden;          /* Mantiene todo dentro de los bordes redondos */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse: Subir un poco y más sombra */
+.reel-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(193, 53, 132, 0.4); /* Sombra color Instagram (rosado/morado) */
+}
+
+/* Capa oscura abajo para que se lea el texto */
+.reel-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Ocupa la mitad inferior */
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Alinea contenido al fondo */
+  padding: 25px;
+  color: white;
+}
+
+/* El logo de Instagram */
+.reel-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+/* Texto del botón */
+.reel-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.reel-subtext {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+/* Contenedor para 3 fotos verticales */
+.triple-grid {
+  display: flex;
+  justify-content: center; /* Las centra horizontalmente */
+  align-items: center;     /* Las alinea verticalmente */
+  gap: 1.5rem;             /* Espacio entre fotos */
+  margin: 2rem 0;
+  flex-wrap: wrap;         /* IMPORTANTE: Si la pantalla es pequeña, bajan */
+}
+
+/* Estilo de cada foto vertical */
+.vertical-photo {
+  border-radius: 12px;
+  height: 300px;           /* 👈 Altura fija para que se vean iguales */
+  width: auto;             /* El ancho se calcula solo según la altura */
+  max-width: 100%;         /* Evita que se salga en pantallas muy pequeñas */
+  object-fit: cover;       /* Recorta la imagen si las proporciones varían */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Tu sombra original */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto Hover */
+.triple-grid img:hover {
+  transform: scale(1.03);  /* Zoom suave al pasar el mouse */
+  z-index: 10;             /* Asegura que la imagen sobresalga */
+}
+
+/* Ajuste específico para móviles (opcional) */
+@media (max-width: 768px) {
+  .vertical-photo {
+    height: 250px; /* Un poco más pequeñas en celular para que quepan mejor */
+  }
+}
+
+
 /* Limitar lista de autores en Vista de Cita (Citation View) */
 /* Limitar autores a 2 líneas en Vista de Cita */
 .view-citation .li-cite-author {
