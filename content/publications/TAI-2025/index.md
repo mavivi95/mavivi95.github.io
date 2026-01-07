@@ -14,7 +14,7 @@ authors:
   - Mónica Perdomo-Pérez
 date: "2025-05-06"
 publication_types: ["article-journal"]
-publication: "IEEE Transactions on Artificial Intelligence (Early Access)"
+publication: "IEEE Transactions on Artificial Intelligence"
 
 # Al hacer clic en el título, abre el DOI externo
 # external_link: "https://doi.org/10.1109/TAI.2025.3567371"

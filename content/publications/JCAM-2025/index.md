@@ -4,7 +4,7 @@ authors:
   - Manuela Chacon-Chamorro
   - Fernando A. Gallego b 
   - J.C. Riano-Rojas
-date: "2025-01-01"
+date: "2025-05-21"
 publication_types: ["article-journal"]
 publication: "Journal of Computational and Applied Mathematics"
 

@@ -1,6 +1,6 @@
 ---
 title: Resiliencia en sistemas multiagente y la experiencia de un doctorado
-event: Ciclo de presentaciones programa Ciencias de la Computación
+event: Workshop en Ciencias de la Computación
 
 location: Universidad Nacional de Colombia
 address:
@@ -13,7 +13,7 @@ abstract: 'Los sistemas multiagente con intereses mixtos modelan entornos donde 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: '2025-11-27'
+date: '2025-11-27'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
@@ -29,9 +29,9 @@ tags: ["Cooperative AI", "Multi-Agent Systems", "Resilience"]
 featured: true
 
 image:
-    filename: image_studio.jpeg
+    filename: imagen_workshop_1.jpeg
     focal_point: "center"
-    preview_only: true
+    preview_only: false
 
 links:
   - type: slides

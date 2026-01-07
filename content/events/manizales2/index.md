@@ -2,7 +2,7 @@
 title: Regularización con cotas de Lipschitz
 subtitle: Reduciendo el sobreajuste en redes neuronales
 
-event: Ciclo de presentaciones programa Ciencias de la Computación
+event: Workshop en Ciencias de la Computación
 
 location: Universidad Nacional de Colombia
 address:
@@ -15,7 +15,7 @@ abstract: 'Las redes neuronales profundas son modelos ampliamente utilizados en 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: '2025-11-27'
+date: '2025-11-27'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
@@ -31,13 +31,13 @@ tags: [Neural Networks, Overfitting]
 featured: true
 
 image:
-    filename: image_neural_net.png
+    filename: imagen_workshop_2.jpeg
     focal_point: "center"
     preview_only: true
 
 links:
   - type: slides
-    url: /
+    url: "slides.pdf"
 
 
 # Markdown Slides (optional).
@@ -45,7 +45,7 @@ links:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+slides: "slides.pdf"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -56,3 +56,22 @@ slides: ""
 #  - example
 ---
 
+### ✨ Summary
+
+In this talk, I presented my master’s research, which focuses on addressing overfitting in deep neural networks through an adaptive regularization strategy based on Lipschitz Bounds Adaptation (LBA). This work is grounded in our research paper, which provides the theoretical foundation and experimental validation of the proposed method [(paper on LBA)](/publications/jcam-2025/).
+
+The motivation behind this work stems from the tendency of deep neural networks to overfit training data, capturing spurious patterns that negatively affect generalization. The LBA approach mitigates this issue by adaptively controlling the sensitivity of the model to input perturbations via Lipschitz bounds. Through experiments on image and tabular datasets, the method consistently reduces the training–validation gap while preserving competitive performance, and it also exhibits solid robustness against adversarial attacks.
+
+During the talk, I discussed the theoretical foundations of overfitting, detailed the proposed LBA method, and presented experimental results alongside an introduction to adversarial attacks, concluding with potential directions for future research. The support received throughout the talk was excellent, and returning to the university to present my master’s work was a genuinely meaningful and rewarding experience.
+
+<div class="poster-grid">
+  <div class="poster-column gif-col">
+    <img src="slides.png" alt="Some slides" class="poster-gif"/>
+  </div>
+  <div class="poster-column">
+    <img src="imagen_workshop_2.jpeg" alt="Presenting the talk" class="poster-photo"/>
+  </div>
+</div>
+<div class="poster-button-container">
+  <a class="poster-button" href="slides.pdf" target="_blank">📄 View Full Slides (PDF)</a>
+</div>
