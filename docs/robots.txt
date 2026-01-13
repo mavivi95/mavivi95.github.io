@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://ubiquitous-parakeet-vr9r6r7p47cww7r-1313.app.github.dev/sitemap.xml
