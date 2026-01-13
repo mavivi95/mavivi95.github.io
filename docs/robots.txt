@@ -1,4 +1,3 @@
 User-agent: *
-Allow: /
 
 Sitemap: https://mavivi95.github.io/sitemap.xml
