@@ -1,3 +1,5 @@
 baseURL = 'https://mavivi95.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+[security.exec]
+allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
